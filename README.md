@@ -1,4 +1,4 @@
-# Dise-os-de-Interfaz
+# Diseño-de-Interfaz
 
 ## Nombre del proyecto: Kapture
 
