@@ -20,7 +20,7 @@ El sistema está diseñado para:
 
 ## Entrada, Proceso y Salida del Sistema
 
-* **Entrada (Inputs):** * Registro de transacciones financieras (monto, origen, fecha). En la fase actual, se ingresan vía cliente Web; en la futura versión móvil, se capturarán interceptando notificaciones bancarias.
+* **Entrada (Inputs):** Registro de transacciones financieras (monto, origen, fecha). En la fase actual, se ingresan vía cliente Web; en la futura versión móvil, se capturarán interceptando notificaciones bancarias.
   * Decisiones del usuario (acciones de "Aprobar" o "Descartar" y asignación de etiquetas/categorías).
   * Credenciales de acceso para la autenticación basada en tokens.
 
