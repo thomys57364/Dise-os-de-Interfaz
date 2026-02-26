@@ -1,5 +1,7 @@
 # Diseño-de-Interfaz
 
+Link de diseño en figma: https://www.figma.com/design/FMwqqgMSyiTPGnHw92Af9I/kapture?node-id=0-1&t=kpHFsRGrM1TtLPb7-1
+
 ## Nombre del proyecto: Kapture
 
 ## Integrantes:
@@ -30,7 +32,7 @@ El sistema está diseñado para:
 
 * **Salida (Outputs):**
   * Bandeja de entrada limpia ("Todo al día").
-  * Tablero de control (Overview) con KPIs actualizados: Balance total, ingresos, gastos procesados y distribución porcentual por categorías.
+  * Tablero de control (Overview) con dashboard actualizados: Balance total, ingresos, gastos procesados y distribución porcentual por categorías.
   * Historial inmutable de transacciones procesadas (Transactions View).
 
 ## El Alcance del Sistema
@@ -45,4 +47,3 @@ El sistema está diseñado para:
 * No realiza movimientos ni transferencias de dinero real; es una herramienta de registro y visualización ("Shadow Ledger").
 * No proporciona asesoría de inversión algorítmica ni cálculos de retornos financieros complejos.
    
-Link de diseño en figma: https://www.figma.com/design/FMwqqgMSyiTPGnHw92Af9I/kapture?node-id=0-1&t=kpHFsRGrM1TtLPb7-1
