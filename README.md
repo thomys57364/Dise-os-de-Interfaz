@@ -20,16 +20,16 @@ El sistema está diseñado para:
 
 ## Entrada, Proceso y Salida del Sistema
 
-* ** Entrada (Inputs):** * Registro de transacciones financieras (monto, origen, fecha). En la fase actual, se ingresan vía cliente Web; en la futura versión móvil, se capturarán interceptando notificaciones bancarias.
+* **Entrada (Inputs):** * Registro de transacciones financieras (monto, origen, fecha). En la fase actual, se ingresan vía cliente Web; en la futura versión móvil, se capturarán interceptando notificaciones bancarias.
   * Decisiones del usuario (acciones de "Aprobar" o "Descartar" y asignación de etiquetas/categorías).
   * Credenciales de acceso para la autenticación basada en tokens.
 
-* ** Proceso:** * Recepción de la transacción y asignación estricta del estado `pending` en la base de datos.
+* **Proceso:** * Recepción de la transacción y asignación estricta del estado `pending` en la base de datos.
   * Aislamiento del gasto en el "Inbox" (no afecta los KPIs financieros globales todavía).
   * Validación de las reglas de negocio cuando el usuario procesa la transacción (cambio de estado a `approved` o `rejected` y actualización de llaves foráneas para las categorías).
   * Recálculo en tiempo real de los balances del usuario autenticado.
 
-* ** Salida (Outputs):**
+* **Salida (Outputs):**
   * Bandeja de entrada limpia ("Todo al día").
   * Tablero de control (Overview) con KPIs actualizados: Balance total, ingresos, gastos procesados y distribución porcentual por categorías.
   * Historial inmutable de transacciones procesadas (Transactions View).
