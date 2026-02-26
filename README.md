@@ -20,13 +20,12 @@ El sistema está diseñado para:
 
 ## Entrada, Proceso y Salida del Sistema
 
-* **Entrada (Inputs):** Registro de transacciones financieras (monto, origen, fecha). En la fase actual, se ingresan vía cliente Web; en la futura versión móvil, se capturarán interceptando notificaciones bancarias.
+* **Entrada (Inputs):** Registro de transacciones financieras (monto, origen, fecha). Se capturarán interceptando notificaciones bancarias.
   * Decisiones del usuario (acciones de "Aprobar" o "Descartar" y asignación de etiquetas/categorías).
-  * Credenciales de acceso para la autenticación basada en tokens.
 
-* **Proceso:** * Recepción de la transacción y asignación estricta del estado `pending` en la base de datos.
-  * Aislamiento del gasto en el "Inbox" (no afecta los KPIs financieros globales todavía).
-  * Validación de las reglas de negocio cuando el usuario procesa la transacción (cambio de estado a `approved` o `rejected` y actualización de llaves foráneas para las categorías).
+* **Proceso:** Recepción de la transacción y asignación estricta del estado `pending` en la base de datos.
+  * Aislamiento del gasto en el "Inbox".
+  * Validación de las reglas de negocio cuando el usuario procesa la transacción.
   * Recálculo en tiempo real de los balances del usuario autenticado.
 
 * **Salida (Outputs):**
@@ -36,13 +35,12 @@ El sistema está diseñado para:
 
 ## El Alcance del Sistema
 
-**Lo que el sistema SÍ hace (In Scope):**
-* Gestión de usuarios con autenticación segura basada en Tokens (Soporte Multi-plataforma Web/Móvil).
+**Lo que el sistema SÍ hace:**
+* Gestión de usuarios con autenticación segura basada en Tokens.
 * Gestión de estado de transacciones mediante un flujo de aprobación manual (Inbox).
 * Visualización analítica básica (Resumen financiero por estado y categoría).
-* API RESTful desacoplada lista para ser consumida por diferentes interfaces de cliente.
 
-**Lo que el sistema NO hace (Out of Scope):**
+**Lo que el sistema NO hace:**
 * No se conecta directamente a los servidores de los bancos para extraer datos (Open Banking / Web Scraping).
 * No realiza movimientos ni transferencias de dinero real; es una herramienta de registro y visualización ("Shadow Ledger").
 * No proporciona asesoría de inversión algorítmica ni cálculos de retornos financieros complejos.
