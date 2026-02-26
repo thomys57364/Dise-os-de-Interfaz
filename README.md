@@ -1,6 +1,6 @@
 # Dise-os-de-Interfaz
 
-##Nombre del proyecto: Kapture
+## Nombre del proyecto: Kapture
 
 ## Integrantes:
 
