@@ -1,12 +1,11 @@
 
-## Espaciado (Spacing)
-
-Sistema basado en una **escala de 4px** para mantener consistencia en toda la interfaz.
+## Tipografía (Typography)
 
 | Token | Valor | Uso |
 |------|------|------|
-| `space-sm` | `8px` | Separación entre íconos o elementos pequeños. |
-| `space-md` | `16px` | Padding interno de botones y componentes pequeños. |
-| `space-lg` | `24px` | Padding interno de tarjetas o contenedores principales. |
+| `font-family-sans` | `'Inter', sans-serif` | Fuente principal del sistema. Limpia, técnica y altamente legible en pantallas. |
+| `font-weight-regular` | `400` | Peso estándar para texto normal. |
+| `font-weight-bold` | `600` | Usado para **montos de dinero y títulos importantes**. |
 
 ---
+****
