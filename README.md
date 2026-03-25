@@ -4,6 +4,7 @@ Link de diseño en figma: https://www.figma.com/design/FMwqqgMSyiTPGnHw92Af9I/ka
 
 Enlace del prototipo: https://stitch.withgoogle.com/preview/9291265267811873829?node-id=cbac23920c714fe1bf1f9ff2a72126c4
 
+Presentacion en canva: https://canva.link/vyr3v2q7x8z7b7o
 ## Nombre del proyecto: Kapture
 
 ## Integrantes:
