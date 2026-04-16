@@ -119,13 +119,7 @@ Los íconos de Kapture están categorizados por tipo de transacción, permitiend
 
 ---
 
-## 👥 Distribución del Trabajo
 
-| Integrante | Rol | Responsabilidad |
-|------------|-----|-----------------|
-| **Thomas** | Diseño de Componentes (UI Kit) y Teoría | Diseño y documentación del sistema de componentes, consolidación del documento final |
-| **Duvan** | Interacción, Animación y Prototipado | Definición de flujos interactivos y animaciones en Figma |
-| **Alejandro** | Conceptualización Visual y Project Manager | Dirección visual del proyecto y gestión de entregas |
 
 ---
 
