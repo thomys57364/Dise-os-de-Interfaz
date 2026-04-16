@@ -129,4 +129,4 @@ Los íconos de Kapture están categorizados por tipo de transacción, permitiend
 
 ---
 
-*Documentación generada para la materia Diseño de Interfaces.*
+
