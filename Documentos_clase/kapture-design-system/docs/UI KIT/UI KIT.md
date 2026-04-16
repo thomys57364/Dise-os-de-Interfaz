@@ -115,7 +115,7 @@ Los íconos de Kapture están categorizados por tipo de transacción, permitiend
 
 **Evidencia visual:**
 
-![Íconos](assets/iconos20.png)
+![Íconos](assets/iconos%20.png)
 
 ---
 
