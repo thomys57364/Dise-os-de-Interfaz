@@ -55,11 +55,17 @@ Esto responde al principio heurístico de "Control y libertad del usuario". En l
 El diseño visual de la aplicación se rige bajo el "KAPTURE Design System", el cual busca garantizar que la interfaz se mantenga sencilla, funcional y sin saturar cognitivamente al usuario. El Moodboard del proyecto se define por los siguientes elementos conceptuales y técnicos:
 
 *Palabras Clave y Filosofía: Dark UI, simplicidad, claridad financiera, legibilidad, funcionalidad, diseño moderno.
+
 *Código Cromático Oficial (Design Tokens): El sistema emplea una paleta basada en tonos eléctricos sobre fondos gris-azulados para facilitar cambios globales en el diseño.
+
 **Fondos (Neutros): Se utiliza Slate 900 (#0F172A), un azul noche muy oscuro, para el fondo general de la aplicación, mientras que Slate 800 (#1E293B) se aplica a la superficie de tarjetas y contenedores.
+
 **Acentos e Interacción: Se aplica la regla UI "El Neón indica Acción, no Decoración", reservando los colores brillantes estrictamente para elementos interactivos. El Violeta eléctrico (#8B5CF6) funge como color principal de marca; el Menta neón (#10B981) se destina a acciones positivas como "Aprobar"; y el Rosa/Rojo neón (#F43F5E) se utiliza para acciones negativas como "Descartar".
+
 **Tipografía (Textos): Para máxima legibilidad de lectura se emplea Blanco hueso (#F8FAFC), y Gris claro (#94A3B8) para información secundaria de solo lectura.
+
 *Tipografía y Jerarquía: Se definió el uso de la familia fuente 'Inter', sans-serif, por ser limpia y técnica. En esta aplicación financiera, el número es el elemento principal, exigiendo una jerarquía donde el monto posee el tamaño más grande en peso bold (600), seguido por el servicio de origen (ej. Uber Eats), y finalizando con fechas en tamaños reducidos.
+
 *Estructuras y Espacio: Bajo la norma de "Respiración por Espacio Negativo", se omite por completo el uso de líneas divisorias horizontales (<hr>) entre componentes (como las transacciones). La separación de elementos se logra mediante un espaciado generoso para reducir el ruido visual y mantener un aspecto limpio.
 
 ### Palabras Clave y Filosofía
