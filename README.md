@@ -1,7 +1,5 @@
 # Diseño-de-Interfaz
 
-Documento guia 7: file:///C:/Users/duvan/OneDrive%20-%20Universidad%20Manuela%20Beltr%C3%A1n/Universidad/Semestres/Materias%2010mo%20Semestre/DISE%C3%91O%20DE%20INTERFACES/kapture-lab07-chatbot.docx.pdf
-
 Presentación guia 6: https://canva.link/l0ojnx3d23uni53
 
 Link de diseño en figma: https://www.figma.com/design/FMwqqgMSyiTPGnHw92Af9I/kapture?node-id=0-1&t=kpHFsRGrM1TtLPb7-1
