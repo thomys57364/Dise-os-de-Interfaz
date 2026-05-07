@@ -1,5 +1,7 @@
 # Diseño-de-Interfaz
 
+Presentación guia 8: https://guia8.netlify.app/
+
 Presentación guia 6: https://canva.link/l0ojnx3d23uni53
 
 Link de diseño en figma: https://www.figma.com/design/FMwqqgMSyiTPGnHw92Af9I/kapture?node-id=0-1&t=kpHFsRGrM1TtLPb7-1
